@@ -25,7 +25,7 @@ const Footer = () => {
           Reach out to us and let&apos;s discuss how we can help you
           achieve your goals.
         </p>
-        <Link href="https://wa.me/628XXXXXXXXXX?text=Hi,%20saya%20ingin%20membuat%20website">
+        <Link href="https://wa.me/6281586525868?text=Hi,%20saya%20ingin%20membuat%20website">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
