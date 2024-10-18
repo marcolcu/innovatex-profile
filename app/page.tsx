@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import PackagesSection from "@/components/Package";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
         <Hero />
         <Grid />
         <RecentProjects />
-        <Experience />
+        <PackagesSection />
         <Footer />
       </div>
     </main>
