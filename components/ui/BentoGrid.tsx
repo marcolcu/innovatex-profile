@@ -1,13 +1,13 @@
-import { useState } from "react";
-import { IoCopyOutline } from "react-icons/io5";
+import {useState} from "react";
+import {IoCopyOutline, IoRocket} from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
 
-import { cn } from "@/lib/utils";
+import {cn} from "@/lib/utils";
 
 
-import { BackgroundGradientAnimation } from "./GradientBg";
+import {BackgroundGradientAnimation} from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
@@ -67,8 +67,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "innovatexsh@gmail.com";
-    navigator.clipboard.writeText(text);
+    window.open("https://wa.me/6281586525868?text=Hi,%20saya%20ingin%20membuat%20website", "_blank");
     setCopied(true);
   };
 
@@ -184,8 +183,8 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy our email address"}
-                icon={<IoCopyOutline />}
+                title={copied ? "Lets Roll!" : "Chat with our Marketing"}
+                icon={<IoRocket />}
                 position="left"
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"
