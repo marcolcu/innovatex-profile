@@ -47,8 +47,8 @@ const PackagesSection = () => {
     },
     {
       title: 'Deluxe',
-      price: 'IDR 6.000.000',
-      oldPrice: 'IDR 7.000.000',
+      price: 'IDR 10.000.000',
+      oldPrice: 'IDR 12.000.000',
       features: [
         'Management System',
         'Bigger Website Storage',
@@ -61,8 +61,8 @@ const PackagesSection = () => {
     },
     {
       title: 'Exclusive',
-      price: 'IDR 9.000.000',
-      oldPrice: 'IDR 10.000.000',
+      price: 'IDR16.000.000',
+      oldPrice: 'IDR 20.000.000',
       features: [
         'Request by Client',
         'Biggest Website Storage',
