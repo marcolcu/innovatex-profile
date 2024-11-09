@@ -48,6 +48,14 @@ export const projects = [
     iconLists: [],
     link: "https://demo-resto-app.vercel.app/",
   },
+  {
+    id: 2,
+    title: "Invoice Management System",
+    des: "Graha Surveyor Indonesia Building Management Agency.",
+    img: "/pppgsi.jpeg",
+    iconLists: [],
+    link: "https://pppgsi.com/",
+  },
 ];
 
 export const testimonials = [
