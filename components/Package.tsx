@@ -33,8 +33,8 @@ const PackagesSection = () => {
   const packages = [
     {
       title: 'Premium',
-      price: 'IDR 3.000.000',
-      oldPrice: 'IDR 4.000.000',
+      price: 'IDR 4.000.000',
+      oldPrice: 'IDR 5.000.000',
       features: [
         'Company Profile',
         'Free Web Design',
