@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Button } from "@/components/ui/button"
+import {Button} from "@/components/ui/button"
 
 export function Navbar() {
   return (
@@ -26,7 +26,9 @@ export function Navbar() {
             </div>
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center">
-            <Button  className="w-full bg-black text-white hover:bg-black/70">Get in Touch</Button>
+            <Button className="w-full bg-black text-white hover:bg-black/70"
+                    onClick={() => window.location.href = "https://wa.me/6281586525868?text=Hi,%20I%20want%20to%20create%20a%20website"}>Get
+              in Touch</Button>
           </div>
         </div>
       </div>
