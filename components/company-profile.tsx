@@ -76,15 +76,17 @@ export default function CompanyProfile() {
         <section className="bg-[#2560cd] text-white">
           <div className="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
-              <span className="block">Elevate Your Vision</span>
-              <span className="block text-blue-200">with InnovateX Software Solutions</span>
+              <span className="block">Your Website, Our Expertise</span>
+              <span className="block text-blue-200">Crafted with InnovateX Precision</span>
             </h1>
             <p className="mt-6 max-w-lg text-xl sm:max-w-3xl">
-              Transform your ideas into reality with tailored software solutions. At InnovateX, we deliver precision,
-              scalability, and success for your business.
+              Let us bring your vision to life with expertly designed, responsive, and optimized websites.
+              At InnovateX, we specialize in creating tailored solutions that help your business thrive in the digital
+              world.
             </p>
             <div className="mt-10">
-              <Button size="lg" variant="secondary" onClick={() => window.location.href = "https://wa.me/6281586525868?text=Hi,%20I%20want%20to%20create%20a%20website"}>
+              <Button size="lg" variant="secondary"
+                      onClick={() => window.location.href = "https://wa.me/6281586525868?text=Hi,%20I%20want%20to%20create%20a%20website"}>
                 Get in touch
               </Button>
             </div>
@@ -158,7 +160,8 @@ export default function CompanyProfile() {
                 Choose the perfect plan for your business needs
               </p>
             </div>
-            <div className="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:grid-cols-3">
+            <div
+                className="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:grid-cols-3">
               {pricingTiers.map((tier) => (
                   <Card key={tier.name} className="flex flex-col justify-between bg-white shadow-md">
                     <CardHeader>
@@ -175,7 +178,7 @@ export default function CompanyProfile() {
                       <ul className="mt-6 space-y-4">
                         {tier.features.map((feature) => (
                             <li key={feature} className="flex">
-                              <Check className="flex-shrink-0 w-6 h-6 text-green-500" />
+                              <Check className="flex-shrink-0 w-6 h-6 text-green-500"/>
                               <span className="ml-3 text-gray-500">{feature}</span>
                             </li>
                         ))}
@@ -213,7 +216,8 @@ export default function CompanyProfile() {
               </p>
             </div>
             <div className="mt-12 max-w-lg mx-auto">
-              <Button className="w-full bg-black text-white hover:bg-black/70" onClick={() => window.location.href = "https://wa.me/6281586525868?text=Hi,%20I%20want%20to%20create%20a%20website"}>
+              <Button className="w-full bg-black text-white hover:bg-black/70"
+                      onClick={() => window.location.href = "https://wa.me/6281586525868?text=Hi,%20I%20want%20to%20create%20a%20website"}>
                 Contact our team for any inquiries or support
               </Button>
             </div>
