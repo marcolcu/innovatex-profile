@@ -26,7 +26,7 @@ export function Navbar() {
             </div>
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center">
-            <Button className="bg-black text-white">Get in Touch</Button>
+            <Button  className="w-full bg-black text-white hover:bg-black/70">Get in Touch</Button>
           </div>
         </div>
       </div>
