@@ -48,7 +48,9 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <MailIcon className="h-5 w-5 text-gray-900" />
-                <span className="text-gray-900">marketing@innovatexsh.com</span>
+                <a href="mailto:marketing@innovatexsh.com" className="text-gray-900 hover:underline">
+                  marketing@innovatexsh.com
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <MapPinIcon className="h-5 w-5 text-gray-900" />
