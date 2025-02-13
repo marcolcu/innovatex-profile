@@ -5,7 +5,7 @@ const tiers = [
     name: 'Premium',
     id: 'tier-premium',
     href: 'https://wa.me/6281586525868?text=Hi,%20saya%20ingin%20membuat%20Premium%20website',
-    priceMonthly: 'IDR 4.000.000',
+    priceMonthly: 'IDR 8.000.000',
     description: "The perfect plan if you're just getting started with our product.",
     features: [
       'Company Profile',
@@ -20,7 +20,7 @@ const tiers = [
     name: 'Deluxe',
     id: 'tier-deluxe',
     href: 'https://wa.me/6281586525868?text=Hi,%20saya%20ingin%20membuat%20Deluxe%20website',
-    priceMonthly: 'IDR 10.000.000',
+    priceMonthly: 'IDR 12.000.000',
     description: 'Dedicated support and infrastructure for your company.',
     features: [
       'Management System',
