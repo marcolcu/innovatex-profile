@@ -36,7 +36,7 @@ const tiers = [
     name: 'Exclusive',
     id: 'tier-exclusive',
     href: 'https://wa.me/6281586525868?text=Hi,%20saya%20ingin%20membuat%20Exclusive%20website',
-    priceMonthly: 'IDR 16.000.000',
+    priceMonthly: 'IDR 20.000.000',
     description: 'Dedicated support and infrastructure for your company.',
     features: [
       'Request by Client',
