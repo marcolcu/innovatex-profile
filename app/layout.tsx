@@ -7,8 +7,8 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "InnovateX",
-  description: "InnovateX Portfolio",
+  title: "InnovateX SH: Websites That Drive Business Growth",
+  description: "As experts in web design and SEO, Innovatex SH helps businesses of all sizes thrive online. We create websites that are not only beautiful, but also optimized for search engines, generating more traffic and conversions. Contact us for measurable and effective web solutions.",
 };
 
 export default function RootLayout({
