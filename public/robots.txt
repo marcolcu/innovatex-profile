@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://innovatexsh.com
+
+# Sitemaps
+Sitemap: https://innovatexsh.com/sitemap.xml
