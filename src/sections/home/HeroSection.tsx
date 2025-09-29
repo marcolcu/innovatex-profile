@@ -1,4 +1,4 @@
-import { ArrowUpRight, ChevronDown } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 export default function HeroSection() {
   return (
     <>
@@ -32,12 +32,12 @@ export default function HeroSection() {
         </div>
         <div className="w-full flex-1 flex">
           <div className="h-full flex-7 border-r-3 border-r-black/25 flex justify-center items-center">
-            <div className="font-extralight font-telegraf text-[11rem]">
+            <p className="font-extralight font-telegraf text-[11rem] flex justify-center items-center pt-4">
               INNOVATE<span className="font-bold">X</span>
-            </div>
+            </p>
           </div>
           <div className="h-full flex-3 flex justify-center items-center">
-            <ChevronDown size={270} />
+            <ArrowUpRight size={200} className="rotate-90"/>
           </div>
         </div>
       </div>
