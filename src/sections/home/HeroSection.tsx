@@ -1,9 +1,10 @@
 import { ArrowUpRight } from "lucide-react";
+import PlusSign from "@/components/PlusSign";
 export default function HeroSection() {
   return (
     <>
       <div className="w-full h-[90vh] flex flex-col mt-32">
-        <div className="w-full flex-3 flex border-b-3 border-b-black/25">
+        <div className="w-full flex-5 flex border-b-3 border-b-black/25">
           <div className="h-full flex-6 border-r-3 border-r-black/25 flex justify-center items-center relative">
             <div className="w-[500px] h-[500px] rounded-full bg-[radial-gradient(circle,rgba(125,211,252,1)_0%,rgba(134,239,172,0)_70%)] blur-3xl absolute top-1/2 left-1/2 -translate-x-[70%] -translate-y-[60%]"></div>
             <div className="w-[500px] h-[500px] rounded-full bg-[radial-gradient(circle,rgba(196,151,253,1)_0%,rgba(196,181,253,0)_70%)] blur-3xl absolute top-1/2 left-1/2 -translate-x-[30%] -translate-y-[40%]"></div>
@@ -30,8 +31,12 @@ export default function HeroSection() {
             </div>
           </div>
         </div>
-        <div className="w-full flex-1 flex">
-          <div className="h-full flex-7 border-r-3 border-r-black/25 flex justify-center items-center">
+        <div className="w-full flex-3 flex">
+          <div className="h-full flex-7 border-r-3 border-r-black/25 flex justify-center items-center relative">
+          <PlusSign position="tl"/>
+          <PlusSign position="tr"/>
+          <PlusSign position="br"/>
+          <PlusSign position="bl"/>
             <p className="font-extralight font-telegraf text-[11rem] flex justify-center items-center pt-4">
               INNOVATE<span className="font-bold">X</span>
             </p>
