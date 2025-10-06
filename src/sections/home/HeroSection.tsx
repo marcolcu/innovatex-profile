@@ -31,7 +31,7 @@ export default function HeroSection() {
             </div>
           </div>
         </div>
-        <div className="w-full flex-3 flex">
+        <div className="w-full flex-3 flex border-b-3 border-black/25">
           <div className="h-full flex-7 border-r-3 border-r-black/25 flex justify-center items-center relative">
           <PlusSign position="tl"/>
           <PlusSign position="tr"/>
