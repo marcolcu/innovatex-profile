@@ -1,6 +1,12 @@
-import PlusSign from "@/components/PlusSign";
+"use client";
 
 export default function AboutSection() {
+  const handleScroll = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
       <section className="w-full h-[700px] border-b-2 border-black/25 flex flex-col xl:flex-row py-16 xl:py-0">
@@ -17,7 +23,9 @@ export default function AboutSection() {
             stands at the intersection of creativity and technology. We build
             systems that don't just look good — they work beautifully.
           </p>
-          <button className="px-10 py-5 text-4xl font-telegraf font-extralight relative border-2 border-black/25 hover:bg-black hover:text-white transition-all duration-300">
+          <button className="px-10 py-5 text-4xl font-telegraf font-extralight relative border-2 border-black/25 hover:bg-black hover:text-white transition-all duration-300"
+            onClick={() => handleScroll("work")}
+          >
             see our projects
           </button>
         </div>

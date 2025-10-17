@@ -8,11 +8,22 @@ import ContactSection from "@/sections/home/ContactSection";
 export default function Home() {
   return (
     <div>
-      <HeroSection />
-      <AboutSection />
-      <ExpertiseSection />
-      <WorkSection />
-      <ContactSection />
+      <section id="home">
+        <HeroSection />
+      </section>
+      <section id="about">
+        <AboutSection />
+      </section>
+      <section id="expertise">
+        <ExpertiseSection />
+      </section>
+      <section id="work">
+        <WorkSection />
+      </section>
+      <section id="contact">
+        <ContactSection />
+      </section>
+
     </div>
   );
 }
