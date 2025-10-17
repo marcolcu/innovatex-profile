@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowUpRight } from "lucide-react";
-import PlusSign from "@/components/PlusSign";
+
 export default function HeroSection() {
   const handleScroll = (id: string) => {
     const section = document.getElementById(id);
@@ -48,10 +48,6 @@ export default function HeroSection() {
         </div>
         <div className="w-full flex-3 flex border-b-3 border-black/25">
           <div className="h-full flex-7 border-r-3 border-r-black/25 flex justify-center items-center relative">
-            <PlusSign position="tl" />
-            <PlusSign position="tr" />
-            <PlusSign position="br" />
-            <PlusSign position="bl" />
             <p className="font-extralight font-telegraf text-[4rem] md:text-[6rem] lg:text-[8rem] xl:text-[11rem] flex justify-center items-center pt-4">
               INNOVATE<span className="font-bold">X</span>
             </p>
