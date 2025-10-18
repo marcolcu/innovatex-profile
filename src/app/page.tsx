@@ -4,10 +4,9 @@ import ExpertiseSection from "@/sections/home/ExpertiseSection";
 import WorkSection from "@/sections/home/WorkSection";
 import ContactSection from "@/sections/home/ContactSection";
 
-
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-x-hidden overflow-y-auto">
       <section id="home">
         <HeroSection />
       </section>
@@ -23,7 +22,6 @@ export default function Home() {
       <section id="contact">
         <ContactSection />
       </section>
-
     </div>
   );
 }
