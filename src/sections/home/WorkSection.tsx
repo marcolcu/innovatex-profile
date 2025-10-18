@@ -5,7 +5,7 @@ export default function WorkSection() {
     <>
       <div className="h-fit flex flex-col items-center justify-center">
         <div className="flex-1 w-full border-b-2 border-black/25">
-          <h1 className="font-telegraf font-extralight text-[6rem] xl:text-[10rem] border-r-2 border-black/25 w-fit px-16">
+          <h1 className="font-telegraf font-extralight text-[4rem] xl:text-[10rem] border-r-2 border-black/25 w-fit px-16">
             Our Partners
           </h1>
         </div>

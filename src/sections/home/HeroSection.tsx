@@ -12,7 +12,7 @@ export default function HeroSection() {
 
   return (
     <>
-      <div className="w-full h-[90vh] flex flex-col mt-24 md:mt-32">
+      <div className="w-full h-[90vh] flex flex-col mt-24 md:mt-32 relative">
         <div className="w-full flex-5 flex border-b-3 border-b-black/25">
           <div className="h-full flex-6 border-r-3 border-r-black/25 hidden xl:flex justify-center items-center relative">
             <div className="w-[500px] h-[500px] rounded-full bg-[radial-gradient(circle,rgba(125,211,252,1)_0%,rgba(134,239,172,0)_70%)] blur-3xl absolute top-1/2 left-1/2 -translate-x-[70%] -translate-y-[60%]"></div>

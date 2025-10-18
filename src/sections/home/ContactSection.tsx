@@ -17,7 +17,7 @@ export default function ContactSection() {
       </section>
       <section className="xl:hidden flex flex-col items-center justify-center border-t-2 border-black/25">
         <div className="flex-1 flex h-full justify-center items-center">
-          <h1 className="font-telegraf text-[3rem] font-extralight  py-8">
+          <h1 className="font-telegraf text-[2rem] font-extralight py-8">
             +62 815-8652-5868
           </h1>
         </div>
